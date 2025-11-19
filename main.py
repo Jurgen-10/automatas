@@ -1,5 +1,5 @@
 
-# dfa_cli_compacto.py — versión reducida
+# dfa_cli_compacto.py — versión resumida 
 import sys, matplotlib.pyplot as plt, networkx as nx
 from matplotlib.patches import FancyArrowPatch
 
@@ -58,4 +58,4 @@ if __name__=='__main__':
         for i,ch in enumerate(s,1): draw_step(steps[i],i,ch)
         plt.ioff(); plt.show()
     except Exception as e:
-        print("RECHAZA:", e)
+        print("RECHAZA el core aaaa:", e)  
